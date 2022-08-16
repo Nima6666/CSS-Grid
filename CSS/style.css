@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border: solid black;
+    margin-top: 50px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+}
+
+.reset {
+    border: solid brown;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
